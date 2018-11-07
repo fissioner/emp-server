@@ -14,9 +14,5 @@
     "dotenv": "^6.1.0",
     "graphql-yoga": "^1.16.7",
     "mongoose": "^5.3.9"
-  },
-  "engine": {
-    "npm": "^6.4.1",
-    "node": "^8.11.2"
   }
 }
