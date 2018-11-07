@@ -68,5 +68,5 @@ const server = new GraphQLServer({ typeDefs, resolvers })
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {
-    server.start(() => console.log(`Server is running on port ${process.env.PORT || 4000}`));
+    server.start(() => console.log(`Server is running on port ${process.env.PORT_NUM || 4000}`));
 });
